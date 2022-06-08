@@ -1,1 +1,5 @@
-export { add } from "./func/add-demo-npm";
+import { add } from "./func/add-demo-npm";
+
+export { 
+    add,
+}
