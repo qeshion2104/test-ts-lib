@@ -14,7 +14,6 @@
         "experimentalDecorators": true,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
-        "declaration": true,
         "paths": {
           "~/*": [
             "./*"

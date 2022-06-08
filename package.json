@@ -1,12 +1,14 @@
 {
   "name": "testlib",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare": "npm run build",
-    "build": "tsc"
+    "prepare": "npm run build && npm run build:type",
+    "build": "tsc",
+    "build:type": "tsc src/index.ts -d --emitDeclarationOnly --outDir dist",
+    "build:clean": ""
   },
   "keywords": [],
   "author": "",

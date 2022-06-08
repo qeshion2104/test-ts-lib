@@ -1,1 +1,1 @@
-export * from 'src/func/add-demo-npm';
+export { add } from "./func/add-demo-npm";
